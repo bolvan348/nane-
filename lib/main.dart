@@ -17,17 +17,24 @@ class MainApp extends StatelessWidget {
             Row(
               children: [
                 Row(
-                  children: [Icon(Icons.call), Text("+380964943694")],  
+                  children: [
+                  Icon(Icons.call),
+                  Text("+380964943694")
+                  ],  
                 ),
+               Row(
+              children: [
+                  Icon(Icons.alternate_email),
+                  Text("Criper@gmail.com")
+              ]
+            ),
               ],
             ),
-            Text("Hi, I'm Criper",
-                style: TextStyle(fontSize: 15, color: Color(0xFF291854))),
-            Text("I play to minecraft",
-                style: TextStyle(fontSize: 48, color: Color(0xFFFFF8F0))),
+            Text("Hi, I'm Criper",style: TextStyle(fontSize: 15, color: Color(0xFF291854))),
+            Text("I play to minecraft",style: TextStyle(fontSize: 48, color: Color(0xFFFFF8F0))),
           ],
         ),
       ),
-    );
+    ),
   }
 }
